@@ -1,0 +1,8 @@
+name: ItemTest
+version: '${version}'
+main: com.acclash.itemtest.ItemTest
+api-version: '1.20'
+commands:
+  giveitem:
+    description:
+      Give a custom item
