@@ -21,7 +21,7 @@ dependencies {
     compileOnly("org.spigotmc:spigot-api:1.20.5-R0.1-SNAPSHOT")
 }
 
-val targetJavaVersion = 17
+val targetJavaVersion = 21
 java {
     val javaVersion = JavaVersion.toVersion(targetJavaVersion)
     sourceCompatibility = javaVersion
